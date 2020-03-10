@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import PageTemplate from "../components/PageTemplate";
 import { Formik, Field } from "formik";
 import * as Yup from "yup";
+import { useTranslation } from "react-i18next";
 
 const ValidationSchema = Yup.object().shape({
-  firstName: Yup.string()
-    .required('Required'),
+  firstName: Yup.string().required("Required")
 });
 
 function YourDetails() {
+  const { t } = useTranslation();
   return (
     <PageTemplate>
       <h1 className="h2">Your details</h1>
@@ -25,8 +26,12 @@ function YourDetails() {
         {({ handleSubmit, errors }) => (
           <form onSubmit={handleSubmit}>
             <label>
-              First name
+              {t("First name")}
               <Field name="firstName" />
+            </label>
+            <label>
+              {t("Last name")}
+              <Field name="lastName" />
             </label>
             {errors.firstName && <div>{errors.firstName}</div>}
             <button>Save draft</button>
