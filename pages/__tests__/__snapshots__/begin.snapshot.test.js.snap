@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="bg-light mb-2 p-4"
+    data-test="box"
+  >
+    Header
+  </div>,
+  <div
+    className="pageContainer"
+  >
+    <h1
+      className="h2"
+    >
+      Te tono i te utu whakamatuatanga tiaki pēpē
+    </h1>
+    <h1
+      className="h2"
+    >
+      Apply for paid parental leave
+    </h1>
+    <hr />
+    <h2
+      className="h3"
+    >
+      Gather your information
+    </h2>
+    <h3
+      className="h4"
+    >
+      You will need
+    </h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales placerat lectus efficitur mattis. Cras pharetra maximus arcu at laoreet. Donec augue elit, placerat ut augue vel, lacinia commodo elit. Vestibulum nec augue vel ligula pharetra blandit. Etiam ac ultrices tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+    </p>
+    <div
+      className="d-inline-flex flex-column justify-content-between align-items-center mt-3"
+    >
+      <button
+        className="btn-default btn Ripple-parent btn-rounded"
+        data-test="button"
+        onMouseUp={[Function]}
+        onTouchStart={[Function]}
+        type="button"
+      >
+        Start new application
+        <div
+          className="Ripple "
+          data-test="waves"
+          style={
+            Object {
+              "height": "0px",
+              "left": "0px",
+              "top": "0px",
+              "width": "0px",
+            }
+          }
+        />
+      </button>
+      <p
+        className="mt-2 mb-2 pt-0"
+      >
+        or
+      </p>
+      <button
+        className="btn-primary btn-outline-primary btn Ripple-parent btn-rounded"
+        data-test="button"
+        onMouseUp={[Function]}
+        onTouchStart={[Function]}
+        type="button"
+      >
+        Continue saved draft
+        <div
+          className="Ripple Ripple-outline "
+          data-test="waves"
+          style={
+            Object {
+              "height": "0px",
+              "left": "0px",
+              "top": "0px",
+              "width": "0px",
+            }
+          }
+        />
+      </button>
+    </div>
+  </div>,
+  <div
+    className="bg-light mb-2 p-4"
+    data-test="box"
+  >
+    Footer
+  </div>,
+]
+`;
